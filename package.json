@@ -1,0 +1,40 @@
+{
+  "name": "full-stack-react-login",
+  "version": "1.0.0",
+  "description": "full stack react registration and login with mongoDB, express.js, react.js, and node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonicaHoward/full-stack-react-login.git"
+  },
+  "keywords": [
+    "registration",
+    "login",
+    "react",
+    "mongoDB",
+    "express",
+    "node"
+  ],
+  "author": "Monica Howard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MonicaHoward/full-stack-react-login/issues"
+  },
+  "homepage": "https://github.com/MonicaHoward/full-stack-react-login#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.15",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
